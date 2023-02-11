@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{>links}}
+    
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+{{>nav}}
+
+
+<div class="form_container">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <form >
+                <input type="text" placeholder="Enter City Name" id="city_name" value="">
+                <button class="btnForm " id="submit_btn" type="submit" > <i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+
+        </div>
+        </div>
+         
+        
+        <div class="col-md-4 mx-auto mt-10 weather_details">
+            
+            <div class="row mx-auto">
+                <div class="col-md-8 mx-auto ">
+                <h1 id="city_name_by_user">Bangalore</h1>
+
+                </div>
+            </div>
+            <div class="day-date">
+            <div class=" "><p id="day">monday</p></div>
+            <div class=" "> <p id="date">27 jan</p></div>
+
+            </div>
+             
+
+            <div class="day-date">
+                 
+<div ><h1 id="temp">28 <sup>o</sup>C</h1></div>
+            <div id="icon"><i class="fa-solid fa-sun fa-3x"></i></div>
+            </div> 
+            </div>
+            
+            
+           
+        </div>
+    </div>
+</div>
+
+
+
+
+{{>footer}}
+<script src="js/main.js"></script>
+    
+</body>
+</html>

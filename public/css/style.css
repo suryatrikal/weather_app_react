@@ -1,0 +1,168 @@
+ *{
+   font-family: 'Anton', sans-serif;
+font-family: 'Merriweather', serif;
+ }
+ body{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+ }
+ .ck{
+   color:rgb(255, 255, 255);
+   
+ }
+ .row{
+  margin: 0;
+
+ }
+ .btn{
+   margin-top: 70px;
+   background-color:#5c68dde8 ;
+   outline: none;
+ }
+ .btn:hover{
+  background-color:#555fb6e8 ;
+ }
+ .navbar{
+   background-color: rgb(0, 0, 0);
+    
+ }
+ .navbar-nav{
+  background-color:#5c68dde8;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right:10px ;
+ }
+ a{
+   /* background-color:black; */
+   color: rgb(255, 255, 255);
+   border-radius: 20px;
+   /* padding: 100px; */
+ }
+ /* .navbar-brand{
+  
+ } */
+ .nav-item{
+   margin-left: 30px;
+   
+ }
+ .n:hover{
+   color: #007bff;
+ }
+ .fa-regular {
+   transition: linear all;
+   animation: rot 2s linear infinite;
+ }
+  @keyframes rot{
+   0%{
+      transform: rotate(0deg);
+   }
+   100%{
+      transform: rotate(360deg);
+   }
+    
+ }
+ .footer{
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* position: relative; */
+  background-color:rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+  
+    
+  
+ }
+ input[type="text"]{
+  background-color:#b6b5b5;
+  width:100%;
+  padding:20px 20px;
+  outline:none;
+  font-size:x-large;
+  border-radius:20px 
+   
+ }
+ .form_container{
+  margin-top: 30px;
+  position: relative ;
+ }
+ .right_error{
+  text-align: center;
+ }
+ .btnForm{
+  position: absolute;
+  left: 746px;
+  top: 2px;
+  padding: 23px;
+  border-radius: 12px;
+ }
+ .right_error h1{
+  font-size: 200px;
+  color: #ff2f0061;
+ }
+ .right_error p{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 10rem;
+  font-size: 40px;
+  color: #ff2f0061;
+ }
+ .footer h1{
+   color: white;
+ }
+ .social_media{
+   display: flex;
+   
+   justify-content: space-between;
+   padding-bottom: 20px;
+   margin-top: 5px;
+ }
+  .foot{
+   /* margin-top: 2px; */
+   background-color: black;
+   margin-top: auto;
+  }
+ 
+
+ /* .gly-rotate-45 {
+   
+ } */
+ /* weather page */
+ /* .bg-success {
+  width: 30%;
+  background-color: #28a745!important;
+  padding: 18px;
+} */
+.weather_details{
+  background-color: #5c68dde8;
+  margin-top: 20px;
+  padding-bottom: 1000px;
+   
+  border-radius: 35px;
+   box-shadow: -4px 0px black, 5px 1px blue, 2px 5px #248f69, 2px 2px rgb(55 55 73);;
+  /* box-shadow: 2px 2px blue; */
+}
+#city_name_by_user{
+   text-align: center;
+}
+.day-date{
+  display: flex;
+  
+  justify-content: space-between;
+}
+.weather_details{
+  padding: 20px;
+}
+.typed-out{
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  animation: 
+    typing 1s forwards;
+  font-size: 1.6rem;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}

@@ -1,0 +1,18 @@
+  
+ .left{
+    line-height: 100px;
+    /* font-family: 'Pacifico', cursive; */
+    /* font-style: italic; */
+    text-align: center;
+     color: #098f7c;
+    font-size: xx-large;
+ }
+  
+ .left h1{
+    /* color: aqua; */
+    font-size: 70px;
+ }
+ .navbar-nav{
+    background-color: #098f7c;
+ }
+ 
