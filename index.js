@@ -7,13 +7,14 @@ const hbs=require('hbs');
 // either the port given by hosting website or by local 8000 or whaterver you specified
 
 const port=process.env.PORT||8000;
-const static_web_path=path.join(__dirname,"../templates/views");
+const static_web_path=path.join(__dirname,"/templates/views");
+console.log(static_web_path+"==");
 app.set('view engine', 'hbs');
 app.set('views', static_web_path);
-const x=path.join(__dirname,'../public');
-console.log(x);
-const x1=path.join(__dirname,'../public/css');
-const partials_path=path.join(__dirname,'../templates/partials');
+const x=path.join(__dirname,'/public');
+// console.log(x);
+const x1=path.join(__dirname,'/public/css');
+const partials_path=path.join(__dirname,'/templates/partials');
 // console.log(partials_path);
 // // app.set(x);
 // console.log(  static_web_path );
